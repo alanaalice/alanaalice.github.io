@@ -1,14 +1,35 @@
 <!doctype html>
 <html lang="en">
-<div id="container">
-  <header>
+  <head>
     <img src="https://s3.amazonaws.com/busites_www/mvillebiloxicom/pages/meta/1/1/palm_tree_banner_1464283054.jpg" alt="palm trees">
-    <h1>Portal Project</h1>
-  </header>
+    <title>Portal Project</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: .5fr 1fr .5fr;
+        max-width: 50vw;
+        margin: auto;
+      }
+      .exercises {
+        background-color: #ffa4bd
+      }
+      .projects {
+        background-color: #a4ffb4
+      }
+      .notes {
+        background-color: #ffa4bd
+      }
+      .footer {
+        background-color: #a4ffb4
+      }
+    </style>
+  </head>
 
-<section>
-  <h2>Exercises</h2>
-  <ol>
+<div id="container">
+<section class="exercises">
+  <h1 align="left">Exercises</h1>
+  <ul align="left">
     <li><a href="alanastory.html">History of Internet Art:Remixing</a></li>
     <li><a href="Archive.zip">HTML Semantic Markup Practice</a></li>
     <li><a href="roberts-cayetano.html">CSS Colorize Selector</a></li>
@@ -16,21 +37,21 @@
     <li><a href="ex5.html">Web Font Style Tile</a></li>
     <li><a href="blogpost1.html">Write Blog Entry #1</a></li>
     <li><a href="#">CSS Grid One Page Layout</a></li>
-  </ol>
+  </ul>
 </section>
 
-<section>
-  <h2>Projects</h2>
-  <ol>
+<section class="projects">
+  <h1 align="center">Projects</h1>
+  <ul align="center">
     <li><a href="#">Project 1</a></li>
     <li><a href="blogindex.html">Project 2</a></li>
     <li><a href="#">Project 3</a></li>
-  </ol>
+  </ul>
 </section>
 
-<section>
-  <h2>Notes</h2>
-  <ul>
+<section class="notes">
+  <h1 align="right">Notes</h1>
+  <ul align="right">
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
   </ul>
