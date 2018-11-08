@@ -5,7 +5,7 @@
 
 header {
   background: #00402C;
-  color: white
+  color: white;
   padding: 2rem;
   text-align: center;
 }
@@ -62,6 +62,7 @@ h2 {
 
 footer {
   background: #00402C;
+  color: white;
   padding: 2rem;
   text-align: center;
 }
