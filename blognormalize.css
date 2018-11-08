@@ -1,0 +1,67 @@
+.pagecontainer {
+  margin: auto;
+  width: 90vw;
+}
+
+header {
+  background: #00402C;
+  color: #DFFF1D
+  padding: 2rem;
+  text-align: center;
+}
+
+img{
+  position: center;
+  top: 0;
+  max-width: 100%;
+  height: auto;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+
+nav ul li {
+  background: white;
+  height: 2rem;
+  width: 36rem;
+  padding-top: 1rem;
+  border-color: #DFFF1D;
+  border: solid;
+  border-width: 1px;
+  text-align: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #00402C;
+}
+
+nav ul li:active {
+  background: #417F5C;
+}
+
+.locationmarker {
+  background: white;
+}
+
+article {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+h2 {
+  background: #417F5C;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background: #00402C;
+  padding: 2rem;
+  text-align: center;
+}
