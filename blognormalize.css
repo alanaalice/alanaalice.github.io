@@ -5,7 +5,7 @@
 
 header {
   background: #00402C;
-  color: #DFFF1D
+  color: white
   padding: 2rem;
   text-align: center;
 }
@@ -28,7 +28,7 @@ nav ul li {
   height: 2rem;
   width: 36rem;
   padding-top: 1rem;
-  border-color: #DFFF1D;
+  border-color: white;
   border: solid;
   border-width: 1px;
   text-align: center;
