@@ -1,0 +1,73 @@
+.pagecontainer {
+  margin: auto;
+  width: 90vw;
+}
+
+header {
+  padding: 2rem;
+  align: left;
+}
+
+image {
+  position:
+  top:
+  maxi-width:
+  height:
+}
+
+nav ul {
+  display:
+  flex-wrap:
+  justify-content:
+  list-style-type:
+}
+
+nav ul li {
+
+}
+
+nav ul li a {
+  /*try to make active the pastel version of orange color// background be blue bar??? */
+}
+
+.locationmarker {
+
+}
+
+h1 {
+  font-family:
+  color: black;
+  padding:
+  text-align: center;
+}
+
+h2 {
+  font-family:
+  color: black;
+  padding:
+  text-align: left;
+
+}
+a:link {
+  font-family:
+  font-size:
+  color: #000000;
+}
+
+a:visited {
+  font-family:
+  font-size:
+  color: #467F7F
+}
+
+a:hover {
+  font-family:
+  font-size:
+  color: #6fc9c9
+}
+
+a:active {
+  font-family:
+  font-size:
+  color: #b24100
+}
