@@ -4,21 +4,27 @@
     <img src="https://s3.amazonaws.com/busites_www/mvillebiloxicom/pages/meta/1/1/palm_tree_banner_1464283054.jpg" alt="palm trees">
     <title>Portal Project</title>
     <style>
-      .container {
+      #container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: .5fr 1fr .5fr;
+        grid-template-rows: 1fr;
         max-width: 50vw;
         margin: auto;
       }
       .exercises {
-        background-color: #ffa4bd
+        background-color: #ffa4bd;
+        grid-column: 1/2;
+        grid-row: 1;
       }
       .projects {
-        background-color: #a4ffb4
+        background-color: #a4ffb4;
+        grid-column: 2/3;
+        grid-row: 1;
       }
       .notes {
-        background-color: #ffa4bd
+        background-color: #ffa4bd;
+        grid-column: 3/4;
+        grid-row: 1;
       }
       .footer {
         background-color: #a4ffb4
