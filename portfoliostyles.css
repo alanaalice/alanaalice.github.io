@@ -5,7 +5,9 @@
 }
 
 header {
-  align: top left;
+  align: left top;
+  object-fit: scale-down;
+  object-position: left top;
   max-width: 5%;
   height: auto;
 }
