@@ -8,6 +8,8 @@ header {
   align: left top;
   padding-top: 0;
   padding-left: 0;
+  max-width: 479px;
+  max-height: auto;
 }
 
 image {
