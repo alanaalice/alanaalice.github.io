@@ -4,11 +4,10 @@
 }
 
 header {
+  position: absolute;
   align: left top;
-  object-fit: scale-down;
-  object-position: left top;
-  max-width: 5%;
-  height: auto;
+  padding-top: 0;
+  padding-left: 0;
 }
 
 image {
