@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC" rel="stylesheet">
 .pagecontainer {
   margin: auto;
   width: 90vw;
@@ -16,18 +17,27 @@ image {
 }
 
 nav ul {
-  display:
-  flex-wrap:
-  justify-content:
-  list-style-type:
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style-type: none;
 }
 
 nav ul li {
-
+  background: transparent;
+  height: 2rem;
+  width: 36rem;
+  padding-top: 1rem;
+  border-color: transparent;
+  border: none;
+  text-align: center;
 }
 
 nav ul li a {
   /*try to make active the pastel version of orange color// background be blue bar??? */
+  text-decoration: underline;
+  font-size: 1.2em;
+  color: black;
 }
 
 .locationmarker {
@@ -49,25 +59,25 @@ h2 {
 
 }
 a:link {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   font-size:
   color: #000000;
 }
 
 a:visited {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   font-size:
   color: #467F7F
 }
 
 a:hover {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   font-size:
   color: #6fc9c9
 }
 
 a:active {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   font-size:
   color: #b24100
 }
