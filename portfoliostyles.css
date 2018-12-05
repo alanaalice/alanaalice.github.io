@@ -5,15 +5,16 @@
 }
 
 header {
-  padding: 2rem;
-  align: left;
+  align: top left;
+  max-width: 15%;
+  height: auto;
 }
 
 image {
-  position:
-  top:
-  maxi-width:
-  height:
+  position: relative;
+  align: center;
+  max-width: 60%;
+  height: auto;
 }
 
 nav ul {
@@ -40,44 +41,36 @@ nav ul li a {
   color: black;
 }
 
-.locationmarker {
-
-}
-
 h1 {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   color: black;
-  padding:
+  padding: 2em;
   text-align: center;
 }
 
 h2 {
-  font-family:
+  font-family: 'Noto Sans SC', sans-serif;
   color: black;
-  padding:
-  text-align: left;
+  padding: 1em;
+  text-align: center;
 
 }
 a:link {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:
   color: #000000;
 }
 
 a:visited {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:
-  color: #467F7F
+  color: #467F7F;
 }
 
 a:hover {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:
-  color: #6fc9c9
+  color: #6fc9c9;
 }
 
 a:active {
   font-family: 'Noto Sans SC', sans-serif;
-  font-size:
-  color: #b24100
+  color: #b24100;
 }
