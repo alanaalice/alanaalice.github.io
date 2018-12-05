@@ -2,8 +2,8 @@
   margin: auto;
   width: 90vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 750px 1fr 1fr 1fr 1fr;
+  grid-template-rows: 422px 1fr 1fr;
 }
 
 header {
