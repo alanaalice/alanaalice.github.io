@@ -1,6 +1,7 @@
 .pagecontainer {
   margin: auto;
   width: 90vw;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
