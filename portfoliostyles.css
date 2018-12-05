@@ -52,21 +52,19 @@ nav ul li a {
 h1 {
   font-family: 'Noto Sans SC', sans-serif;
   color: black;
-  padding: 2em;
   text-align: center;
 }
 
 h2 {
   font-family: 'Noto Sans SC', sans-serif;
   color: black;
-  padding: 1em;
   text-align: center;
 }
 
 p {
   font-family: 'Noto Sans SC', sans-serif;
   color: black;
-  text-align: center;
+  text-align: justify;
 }
 
 a:link {
