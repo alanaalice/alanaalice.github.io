@@ -85,5 +85,7 @@ a:active {
 
 footer {
   font-family: 'Noto Sans SC', sans-serif;
+  grid-column: 5/6;
+  grid-row: 3/4;
   align: bottom right;
 }
