@@ -25,6 +25,7 @@ img {
   position: absolute;
   max-width: 750px;
   height: auto;
+  align-items: center;
 }
 
 a:link {
