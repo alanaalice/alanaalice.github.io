@@ -22,7 +22,7 @@ p {
 }
 
 img {
-  position: absolute;
+  position: relative;
   max-width: 750px;
   height: auto;
   align-items: center;
