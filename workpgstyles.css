@@ -31,6 +31,7 @@ img {
 a:link {
   font-family: 'Noto Sans SC', sans-serif;
   color: #000000;
+  align: center;
 }
 
 a:visited {
