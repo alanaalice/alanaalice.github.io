@@ -65,7 +65,7 @@
 
   /*formatting for art images*/
   image {
-    align-content: center;
+    margin: auto;
     max-width: content;
     max-height: inherit;
   }
@@ -96,8 +96,9 @@ header {
 }
 
 nav ul {
+  margin: auto;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   list-style-type: none;
