@@ -91,6 +91,7 @@ header {
 
 .contact {
   align-content: flex-end;
+  position: 98% 98%;
   text-align: right;
   vertical-align: bottom;
   list-style-type: none;
