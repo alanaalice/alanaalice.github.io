@@ -77,6 +77,8 @@ header {
   align-content: flex-start;
   width: 100%;
   height: 422px; /*height of joyland pic*/
+  object-fit: contain;
+  object-position: top left;
 }
 
 /*for about and contact links at right side of page*/
