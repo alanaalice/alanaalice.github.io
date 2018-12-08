@@ -65,9 +65,9 @@
 
   /*formatting for art images*/
   image {
-    height: auto;
-    width: auto;
     align-content: center;
+    height: 100%;
+    width: auto;
   }
 
 /*image for the header*/
