@@ -73,7 +73,6 @@
 /*image for the header*/
 header {
   display: flex;
-  padding: 0rem;
   align-content: flex-start;
   width: 100%;
   height: 422px; /*height of joyland pic*/
@@ -84,6 +83,7 @@ header {
 /*for about and contact links at right side of page*/
 .about {
   align-content: flex-end;
+  object-position: top left;
   text-align: right;
   vertical-align: top;
 }
