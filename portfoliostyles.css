@@ -1,50 +1,99 @@
-.pagecontainer {
-  margin: 2%;
-  width: 90vw;
-  display: grid;
-  grid-template-columns: 30% 30% 30%;
-  grid-template-rows: 30% 30% 30%;
-  grid-column-gap: 5%;
-  grid-row-gap: 5%;
+/*DESKTOP/larger screens*/
+@media (min-width: 768 px) {
+  .pagecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: justify;
+  }
+
+  header {
+    flex-shrink: 0;
+  }
+
+  img {
+    max-width: 750px;
+    height: auto;
+    width: auto;
+  }
 }
+
+  /*MOBILE first*/
+  .pagecontainer {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    padding: 0rem;
+  }
+
+/*setting body limits*/
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  /*formatting for text info*/
+  h1 {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: black;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: black;
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Noto Sans SC', sans-serif;
+    color: black;
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  /*formatting for art images*/
+  image {
+    max-width: 750px;
+    height: auto;
+    width: auto;
+    align-content: center;
+  }
 
 /*image for the header*/
 header {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  width: 30%;
-  max-width: 750px;
-  max-height: auto;
-  position: absolute;
-  padding-top: 0px;
-  padding-left: 0px;
+  padding: 0rem;
 }
 
+/*for about and contact links at right side of page*/
 .about {
-  grid-column: 6;
-  grid-row: 1;
-  align: top right;
+  align-content: flex-end;
   text-align: right;
+  vertical-align: top;
 }
 
 .contact {
-  font-family: 'Noto Sans SC', sans-serif;
-  grid-column: 6;
-  grid-row: 4;
-  align: bottom right;
+  align-content: flex-end;
   text-align: right;
-}
-
-.navigation {
-  grid-column: 2/5;
-  grid-row: 2/3;
+  vertical-align: bottom;
 }
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  list-style-type: none;
+  flex-direction: row;
+  justify-content: space-between; 2%;
+  text-align:
 }
 
 nav ul li {
@@ -63,34 +112,6 @@ nav ul li a {
   font-size: 1.2em;
   color: black;
 }
-
-/*formatting for text info*/
-h1 {
-  font-family: 'Noto Sans SC', sans-serif;
-  color: black;
-  text-align: center;
-}
-
-h2 {
-  font-family: 'Noto Sans SC', sans-serif;
-  color: black;
-  text-align: center;
-}
-
-p {
-  font-family: 'Noto Sans SC', sans-serif;
-  color: black;
-  text-align: center;
-}
-
-/*formatting for art images*/
-image {
-  position: relative;
-  align: center;
-  max-width: 750px;
-  height: auto;
-}
-
 
 /*link colors and font*/
 a:link {
