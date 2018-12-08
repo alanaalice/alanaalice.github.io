@@ -73,7 +73,6 @@
 /*image for the header*/
 header {
   display: flex;
-  flex
   padding: 0rem;
   align-content: flex-start;
   width: 100%;
