@@ -66,8 +66,8 @@
   /*formatting for art images*/
   image {
     margin: auto;
-    max-width: content;
-    max-height: inherit;
+    object-fit: contain;
+    object-position: center;
   }
 
 /*image for the header*/
