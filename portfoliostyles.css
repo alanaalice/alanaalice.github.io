@@ -97,7 +97,7 @@ header {
 
 nav ul {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   text-align: center;
   list-style-type: none;
