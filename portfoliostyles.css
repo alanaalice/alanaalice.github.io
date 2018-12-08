@@ -87,6 +87,8 @@ header {
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   align-content: flex-end;
   text-align: right;
