@@ -98,7 +98,7 @@ a:active {
   color: #319696;
 }
 
-footer {
+.contact {
   font-family: 'Noto Sans SC', sans-serif;
   grid-column: 6;
   grid-row: 4;
